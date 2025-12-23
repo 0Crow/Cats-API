@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cat Gallery</title>
+  <link rel="stylesheet" href="cat.css">
+</head>
+<body>
+  <header>
+    <h1>Cat Gallery</h1>
+    <div class="controls">
+      <select id="breedSelect">
+        <option value="">-- Select Breed --</option>
+      </select>
+      <button id="loadCats" onclick="fetchCats()">Load Cats</button>
+    </div>
+  </header>
+  
+  <main>
+    <div id="catContainer" class="cat-grid"></div>
+  </main>
+
+  <script src="cat.js"></script>
+</body>
+</html>
