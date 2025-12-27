@@ -21,6 +21,11 @@ A small static demo showcasing a cat-themed UI and interactions.
 - `cat.css` — styles and animations
 - `cat.js` — small interactions
 
+## How It Works
+
+- select cat breed and press the button to submit.
+- once data fetch successfully, selected cat breed are shown in the UI.
+
 ## Development Notes 🔧
 
 - Consider optimizing images and adding lazy-loading for performance.
@@ -28,3 +33,4 @@ A small static demo showcasing a cat-themed UI and interactions.
 ---
 
 **Notes:** Static site; open locally in a browser.
+
